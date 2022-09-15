@@ -1,0 +1,5 @@
+echo '.idea' >> .gitignore
+git rm -r --cached .idea
+git add .gitignore
+git commit -m 'Удалил папку .idea из репозитория'
+git push
